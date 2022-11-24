@@ -5,7 +5,6 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <div class="lastFooter">
         <p>Feito com ❤️ por Bulbasaur Group</p>
-        <img src="../../assets/bulbassaurGroup.png">
   </div>
   `,
   styleUrls: ['./footer.component.css']

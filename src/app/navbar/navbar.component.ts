@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
     <nav>
         <h2 class="logo" ><a routerLink="/">Ossain<span>App</span></a></h2>
         <ul>
-            <li><a routerLink="/">Home</a></li>
+          
             <li><a routerLink="/">About</a></li>
-            <li><a routerLink="/">Denuncia</a></li>
+            <li><a routerLink="/">Denuncias</a></li>
 
         </ul>
         <button type="button">Registrar</button>
