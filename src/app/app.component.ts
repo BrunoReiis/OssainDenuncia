@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
+  <body>
   <!-- Navbar -->
   <app-navbar></app-navbar>
 
@@ -11,7 +12,7 @@ import { Component } from '@angular/core';
 
   <!-- Footer -->
   <app-footer></app-footer>
-
+  </body>
   `,
   styleUrls: ['./app.component.css']
 })
