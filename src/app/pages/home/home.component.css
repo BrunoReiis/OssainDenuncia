@@ -22,10 +22,11 @@ body {
 .text{
     margin-right: -15%;
     text-align: left;
-    width: 70%;
+    width: 55%;
 }
 
 .text h2{
+    font-weight: bold;
     color: #58c0ab;
     font-size: 45px;
 }
@@ -42,7 +43,7 @@ body {
 .fundoMonkey{
     position: relative;
     text-align: center;
-    background-color: #58c0ab;
+    background-color: #388071;
 }
 /* 
 .fundoGeral{

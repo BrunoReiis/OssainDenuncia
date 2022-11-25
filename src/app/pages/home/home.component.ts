@@ -8,14 +8,13 @@ import { Component, OnInit } from '@angular/core';
       <img class="monkey" src="../../../assets/Monkey.jpg">
     </div>
     <div class="text">
-      <h2>About the <span>Website</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia felis vitae hendrerit ultricies. 
-        Vivamus aliquet enim libero, non rhoncus mi luctus ac. Pellentesque dignissim, risus in vestibulum pharetra, lorem 
-        orci suscipit ipsum, ac accumsan neque neque pretium augue. Donec et velit molestie felis sollicitudin maximus. Ut 
-        blandit lectus scelerisque diam maximus facilisis. Nam porttitor orci non fringilla maximus. Maecenas iaculis quam nec 
-        diam consequat, in molestie enim aliquam. Suspendisse molestie auctor sagittis. Vestibulum in scelerisque urna, et bibendum 
-        massa. Morbi imperdiet elit accumsan lacus consequat, egestas tempus leo porttitor. Donec lacinia ultricies nisi, eu 
-        aliquet risus scelerisque eget.</p>
+      <h2>Sobre o <span>Website</span></h2>
+      <p>O nosso site é focado em uma das funcionalidades do aplicativo Ossain, desenvolvido pelo BulbassaurGroup
+         ele tem como objetivo o envio e o recebimento de denúncias sobre o meio ambiente para ajudar a diminuir
+          o número de queimadas, descarte de entulho inadequado, despejo de resíduos tóxicos e diversos outros
+           crimes que prejudicam o planeta. Essa pagina foi feita para a tarefa de Programação Web II na escola
+            Professor Horácio Augusto da Silveira que consiste em criar e testar uma API criada no Beereceptor,
+              para testar a API faremos um sistema de registro e listagem de denuncias.</p>
     </div>
   </div>
   `,

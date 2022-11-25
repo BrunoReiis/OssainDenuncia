@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
         <h2 class="logo" ><a routerLink="/">Ossain<span>App</span></a></h2>
         <ul>
           
-            <li><a routerLink="/">About</a></li>
+            <li><a routerLink="/">Sobre</a></li>
             <li><a routerLink="/">Denuncias</a></li>
 
         </ul>
