@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
             <li><a routerLink="/">Denuncias</a></li>
 
         </ul>
-        <button type="button">Registrar</button>
+        <a routerLink="/registroDenuncia"><button type="button">Registrar</button></a>
     </nav>
 </div>
 

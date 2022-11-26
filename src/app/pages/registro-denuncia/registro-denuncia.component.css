@@ -1,0 +1,80 @@
+#denuncia {
+    height: auto;
+    margin-bottom: 11%;
+}
+
+form {
+    width: 100%;
+}
+
+.denunciaForm {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14vw;
+    flex-direction: column;
+}
+
+.itemDenuncia {
+    display: flex;
+    width: 100%;
+    margin: 15px;
+    flex-direction: column;
+}
+
+#email {
+    display: block;
+    width: 100%;
+}
+
+.inputDenuncia {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background: rgb(214, 214, 214);
+}
+
+.inputDenuncia:focus {
+    outline: 1px solid #36af9b;
+}
+
+.labelDenuncia {
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+.labelDenuncia span {
+    color: #36af9b;
+    font-weight: 800;
+}
+
+.text-area {
+    height: 200px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(214, 214, 214);
+    padding: 6px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.enviarButton {
+    width: 80px;
+    border: none;
+    background: #36af9b;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s all;
+    margin-top: 40px;
+}
+
+.form-button:hover {
+    background: #278273;
+}
