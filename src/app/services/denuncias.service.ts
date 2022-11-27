@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DenunciasService {
 
-  apiUrl = "https://ossaindenuncia.free.beeceptor.com/get"
+  apiUrl = "https://ossaindenuncia2.free.beeceptor.com/denuncias";
 
   constructor(
     private httpClient: HttpClient
@@ -15,5 +15,9 @@ export class DenunciasService {
 
     listarDenuncias(): Observable<any>{
       return this.httpClient.get(this.apiUrl);
+    }
+
+    criarDenuncia(denuncia: any){
+      return this.httpClient.post(this.apiUrl, denuncia)
     }
 }

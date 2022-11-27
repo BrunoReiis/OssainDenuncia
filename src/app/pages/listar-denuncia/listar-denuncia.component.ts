@@ -4,9 +4,9 @@ import { DenunciasService } from './../../services/denuncias.service';
 @Component({
   selector: 'app-listar-denuncia',
   template:`
-    <div class="card">
-    <div class="card-body">
-        <table class="table table-striped">
+    <div class="denuncia">
+    <div class="denunciaBody">
+        <table class="inputDenuncia">
             <thead>
                 <tr>
                     <th>Nome</th>
@@ -20,7 +20,7 @@ import { DenunciasService } from './../../services/denuncias.service';
                 <tr *ngFor="let item of denuncias">
                     <td>{{item.nome}}</td>
                     <td>{{item.email}}</td>
-					<td>{{item.tipoDenuncia}}</td>
+					          <td>{{item.tipoDenuncia}}</td>
                     <td>{{item.denuncia}}</td>
                 </tr>
             </tbody>
