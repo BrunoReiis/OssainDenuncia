@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
         <ul>
           
             <li><a routerLink="/">Sobre</a></li>
-            <li><a routerLink="/">Denuncias</a></li>
+            <li><a routerLink="/listarDenuncias">Denuncias</a></li>
 
         </ul>
         <a routerLink="/registroDenuncia"><button type="button">Registrar</button></a>

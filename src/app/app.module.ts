@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RegistroDenunciaComponent } from './pages/registro-denuncia/registro-denuncia.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ListarDenunciaComponent } from './pages/listar-denuncia/listar-denuncia.component';
+
 
 @NgModule({
   declarations: [
@@ -15,12 +18,14 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    RegistroDenunciaComponent
+    RegistroDenunciaComponent,
+    ListarDenunciaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
