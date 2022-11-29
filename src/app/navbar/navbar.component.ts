@@ -9,13 +9,16 @@ import { Component, OnInit } from '@angular/core';
         <h2 class="logo">
           <a routerLink="/">Ossain<span>App</span></a>
         </h2>
-        <ul>
-          <li><a routerLink="/">Sobre</a></li>
-          <li><a routerLink="/listarDenuncias">Denuncias</a></li>
-        </ul>
-        <a routerLink="/registroDenuncia"
-          ><button type="button">Registrar</button></a
-        >
+        <div>
+          <ul>
+            <li><a routerLink="/">Sobre</a></li>
+            <li><a routerLink="/listarDenuncias">Denuncias</a></li>
+          </ul>
+
+          <a routerLink="/registroDenuncia">
+            <button type="button">Registrar</button>
+          </a>
+        </div>
       </nav>
     </div>
 
